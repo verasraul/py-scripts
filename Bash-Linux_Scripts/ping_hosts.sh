@@ -1,12 +1,18 @@
 #!/bin/bash
 
 # Check if "inv.ini" file exists
-if [ ! -e "inv.ini" ]; then
-    echo "Error: inv.ini file not found."
+if [ ! -e "inv.ini" ] && [ ! -e "inv.txt" ]; then
+    echo "Error: Neither inv.ini nor inv.txt file found."
     exit 1
 fi
 
-# Loop through hosts in "inv.ini" and perform ping tests
+# Use "inv.ini" if it exists; otherwise, use "inv.txt"
+input_file="inv.ini"
+if [ ! -e "inv.ini" ]; then
+    input_file="inv.txt"
+fi
+
+# Loop through hosts in the chosen input file and perform ping tests
 while read -r host; do
     # Check if the host name can be resolved
     if ! ping -c 1 "$host" &>/dev/null; then
@@ -30,5 +36,5 @@ while read -r host; do
     fi
 
     echo "--------------------------------------"
-done < "inv.ini"
+done < "$input_file"
 
