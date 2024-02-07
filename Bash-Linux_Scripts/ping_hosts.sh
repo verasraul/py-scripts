@@ -18,23 +18,13 @@ while read -r host; do
     if ! ping -c 1 "$host" &>/dev/null; then
         echo "$host: Unknown Host"
     else
-        # Perform ping test and count successful responses
-        ping_result=$(ping -c 5 "$host" 2>&1)
-        successful_pings=$(echo "$ping_result" | grep -oE "[0-9]+ received" | cut -d' ' -f1)
-
-        # Check if at least 3 pings are successful
-        if [ "$successful_pings" -ge 3 ]; then
+        # Perform ping test three times
+        if ping -c 3 "$host" &>/dev/null; then
             echo "$host: Ping OK"
         else
-            # Check if the host is unreachable
-            if echo "$ping_result" | grep -q "100% packet loss"; then
-                echo "$host: Unreachable..."
-            else
-                echo "$host: Ping is Inconsistent"
-            fi
+            echo "$host: Ping is Inconsistent"
         fi
     fi
 
     echo "--------------------------------------"
 done < "$input_file"
-
