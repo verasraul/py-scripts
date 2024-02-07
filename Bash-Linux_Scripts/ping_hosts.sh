@@ -1,18 +1,20 @@
 #!/bin/bash
 
-# Check if "inv.ini" file exists
-if [ ! -e "inv.ini" ] && [ ! -e "inv.txt" ]; then
-    echo "Error: Neither inv.ini nor inv.txt file found."
+# Check if a file path is provided as an argument
+if [ "$#" -eq 0 ]; then
+    echo "Error: Please provide a file path as an argument."
     exit 1
 fi
 
-# Use "inv.ini" if it exists; otherwise, use "inv.txt"
-input_file="inv.ini"
-if [ ! -e "inv.ini" ]; then
-    input_file="inv.txt"
+# Check if the specified file exists
+if [ ! -e "$1" ]; then
+    echo "Error: The specified file does not exist."
+    exit 1
 fi
 
-# Loop through hosts in the chosen input file and perform ping tests
+input_file="$1"
+
+# Loop through hosts in the specified input file and perform ping tests
 while read -r host; do
     # Check if the host name can be resolved
     if ! ping -c 1 "$host" &>/dev/null; then
@@ -28,3 +30,4 @@ while read -r host; do
 
     echo "--------------------------------------"
 done < "$input_file"
+
