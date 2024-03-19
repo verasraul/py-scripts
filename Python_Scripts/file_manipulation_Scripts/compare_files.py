@@ -35,4 +35,4 @@ fqdns_values = read_list_file('fqdns.txt')
 
 # Compare values between the two files
 if list_values and fqdns_values:
-    compare_files(list_values, fqdns_values)
+    compare_files(fqdns_values, list_values)
