@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os
 
-def search_and_read_txt_file(filename):
+def find_and_read_file(filename):
     # Get the current working directory
     current_directory = os.getcwd()
 
@@ -25,7 +25,7 @@ def search_and_read_txt_file(filename):
 
 # Check for file:
 filename = "list.txt"  # Specify the filename you want to search for
-result = search_and_read_txt_file(filename)
+result = find_and_read_file(filename)
 if result is not None:
     print(f"These are the values {filename} in the file:")
     for value in result:
