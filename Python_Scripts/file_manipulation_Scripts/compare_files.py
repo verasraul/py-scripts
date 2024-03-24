@@ -16,23 +16,23 @@ def read_list_file(filename):
         print(f"Error occurred: {e}")
         return []
 
-def compare_files(movies_to_add, movies_in_stock):
-    # Print values that are in  movies_to_add.txt but not in movies_in_stock.txt
+def compare_files(add_to_stock, movies_in_stock):
+    # Print values that are in  add_to_stock.txt but not in movies_in_stock.txt
     print("Add the following:")
-    for title in movies_to_add:
+    for title in add_to_stock:
         if title not in movies_in_stock:
             print(f"- {title}")
 
     # Print values that are in both files
     print("\nDo not add the following:")
-    for title in movies_to_add:
+    for title in add_to_stock:
         if title in movies_in_stock:
             print(f"- {title}")
 
-# Read content of movies_in_stock.txt and movies_to_add.txt
+# Read content of movies_in_stock.txt and add_to_stock.txt
 movies_in_stock = read_list_file('movies_in_stock.txt')
-movies_to_add = read_list_file('movies_to_add.txt')
+add_to_stock = read_list_file('add_to_stock.txt.txt')
 
 # Compare values between the two files
-if movies_in_stock and movies_to_add:
-    compare_files(movies_to_add, movies_in_stock)
+if movies_in_stock and add_to_stock:
+    compare_files(add_to_stock, movies_in_stock)
