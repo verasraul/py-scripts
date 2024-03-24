@@ -24,7 +24,7 @@ def find_and_read_file(filename):
         return None  # Return None if the file is not found
 
 # Check for file:
-filename = "list.txt"  # Specify the filename you want to search for
+filename = "movies.txt"  # Specify the filename you want to search for
 result = find_and_read_file(filename)
 if result is not None:
     print(f"These are the values {filename} in the file:")

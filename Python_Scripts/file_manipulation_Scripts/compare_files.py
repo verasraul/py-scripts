@@ -16,23 +16,23 @@ def read_list_file(filename):
         print(f"Error occurred: {e}")
         return []
 
-def compare_files(fqdns_values, list_values):
-    # Print values that are in fqdns.txt but not in list.txt
+def compare_files(movies_to_add, movies_in_stock):
+    # Print values that are in  movies_to_add.txt but not in movies_in_stock.txt
     print("Add the following:")
-    for fqdn in fqdns_values:
-        if fqdn not in list_values:
-            print(f"- {fqdn}")
+    for title in movies_to_add:
+        if title not in movies_in_stock:
+            print(f"- {title}")
 
     # Print values that are in both files
     print("\nDo not add the following:")
-    for fqdn in fqdns_values:
-        if fqdn in list_values:
-            print(f"- {fqdn}")
+    for title in movies_to_add:
+        if title in movies_in_stock:
+            print(f"- {title}")
 
-# Read content of list.txt and fqdns.txt
-list_values = read_list_file('list.txt')
-fqdns_values = read_list_file('fqdns.txt')
+# Read content of movies_in_stock.txt and movies_to_add.txt
+movies_in_stock = read_list_file('movies_in_stock.txt')
+movies_to_add = read_list_file('movies_to_add.txt')
 
 # Compare values between the two files
-if list_values and fqdns_values:
-    compare_files(fqdns_values, list_values)
+if movies_in_stock and movies_to_add:
+    compare_files(movies_to_add, movies_in_stock)
