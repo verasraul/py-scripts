@@ -31,7 +31,7 @@ def compare_files(add_to_stock, movies_in_stock):
 
 # Read content of movies_in_stock.txt and add_to_stock.txt
 movies_in_stock = read_list_file('movies_in_stock.txt')
-add_to_stock = read_list_file('add_to_stock.txt.txt')
+add_to_stock = read_list_file('add_to_stock.txt')
 
 # Compare values between the two files
 if movies_in_stock and add_to_stock:
