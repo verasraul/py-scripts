@@ -24,11 +24,11 @@ def find_and_read_file(filename):
         return None  # Return None if the file is not found
 
 # Check for file:
-filename = "movies.txt"  # Specify the filename you want to search for
-result = find_and_read_file(filename)
+movies_in_stock = "movies_in_stock.txt"  # Specify the filename you want to search for
+result = find_and_read_file(movies_in_stock)
 if result is not None:
-    print(f"These are the values {filename} in the file:")
+    print(f"These are the values {movies_in_stock} in the file:")
     for value in result:
         print(value)
 else:
-    print("File not found in the working directory.")
+    print(f"File {movies_in_stock} is not found in the working directory.")
