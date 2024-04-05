@@ -1,0 +1,442 @@
+Broadcom Inc
+JPMorgan Chase & Co
+Exxon Mobil Corp
+Johnson & Johnson
+The Home Depot Inc
+Procter & Gamble Co
+Merck & Co Inc
+AbbVie Inc
+Chevron Corp
+Walmart Inc
+Bank of America Corp
+Coca-Cola Co
+PepsiCo Inc
+McDonald's Corp
+Wells Fargo & Co
+Cisco Systems Inc
+Intel Corp
+Qualcomm Inc
+Caterpillar Inc
+Comcast Corp Class A
+Verizon Communications Inc
+Union Pacific Corp
+International Business Machines Corp
+Texas Instruments Inc
+Pfizer Inc
+Amgen Inc
+Philip Morris International Inc
+ConocoPhillips
+Honeywell International Inc
+RTX Corp
+The Goldman Sachs Group Inc
+AT&T Inc
+BlackRock Inc
+Eaton Corp PLC
+NextEra Energy Inc
+Medtronic PLC
+Progressive Corp
+Starbucks Corp
+United Parcel Service Inc Class B
+Citigroup Inc
+Automatic Data Processing Inc
+Bristol-Myers Squibb Co
+Morgan Stanley
+Chubb Ltd
+Mondelez International Inc Class A
+CVS Health Corp
+Lockheed Martin Corp
+Blackstone Inc
+Gilead Sciences Inc
+Waste Management Inc
+CME Group Inc Class A
+Illinois Tool Works Inc
+Southern Co
+Altria Group Inc
+Target Corp
+Duke Energy Corp
+Colgate-Palmolive Co
+Schlumberger Ltd
+General Dynamics Corp
+EOG Resources Inc
+U.S. Bancorp
+Phillips 66
+Marathon Petroleum Corp
+Emerson Electric Co
+Apollo Global Management Inc Class A
+PNC Financial Services Group Inc
+PACCAR Inc
+American International Group Inc
+Air Products & Chemicals Inc
+The Travelers Companies Inc
+3M Co
+Ford Motor Co
+Aflac Inc
+Valero Energy Corp
+Truist Financial Corp
+Sempra
+American Electric Power Co Inc
+ONEOK Inc
+MetLife Inc
+Williams Companies Inc
+Bank of New York Mellon Corp
+Allstate Corp
+Ameriprise Financial Inc
+Fastenal Co
+Sysco Corp
+Fidelity National Information Services Inc
+Kimberly-Clark Corp
+Johnson Controls International PLC
+Dominion Energy Inc
+L3Harris Technologies Inc
+Paychex Inc
+Prudential Financial Inc
+Dow Inc
+General Mills Inc
+Cummins Inc
+Exelon Corp
+Newmont Corp
+Kinder Morgan Inc Class P
+Diamondback Energy Inc
+DuPont de Nemours Inc
+The Kroger Co
+Baker Hughes Co Class A
+Consolidated Edison Inc
+Discover Financial Services
+Public Service Enterprise Group Inc
+Xcel Energy Inc
+Archer-Daniels Midland Co
+The Kraft Heinz Co
+The Hartford Financial Services Group Inc
+The Hershey Co
+Cardinal Health Inc
+LyondellBasell Industries NV Class A
+Edison International
+T. Rowe Price Group Inc
+WEC Energy Group Inc
+Corning Inc
+HP Inc
+Fifth Third Bancorp
+M&T Bank Corp
+State Street Corporation
+DTE Energy Co
+Targa Resources Corp
+Ares Management Corp Ordinary Shares - Class A
+Entergy Corp
+Garmin Ltd
+Genuine Parts Co
+Baxter International Inc
+Darden Restaurants Inc
+Hubbell Inc
+Eversource Energy
+FirstEnergy Corp
+Principal Financial Group Inc
+Vistra Corp
+Reliance Inc
+NetApp Inc
+Huntington Bancshares Inc
+Ameren Corp
+Coterra Energy Inc Ordinary Shares
+International Flavors & Fragrances Inc
+Seagate Technology Holdings PLC
+PPL Corp
+Atmos Energy Corp
+Synchrony Financial
+Northern Trust Corp
+CenterPoint Energy Inc
+Regions Financial Corp
+Omnicom Group Inc
+Cincinnati Financial Corp
+Mktliq 12/31/2049
+Clorox Co
+CF Industries Holdings Inc
+Best Buy Co Inc
+Everest Group Ltd
+Packaging Corp of America
+CMS Energy Corp
+Coca-Cola Europacific Partners PLC
+Kellanova Co
+Snap-on Inc
+RPM International Inc
+Citizens Financial Group Inc
+Viatris Inc
+Williams-Sonoma Inc
+Tyson Foods Inc Class A
+Celanese Corp Class A
+Walgreens Boots Alliance Inc
+NRG Energy Inc
+Watsco Inc Class A
+Fidelity National Financial Inc
+KeyCorp
+Conagra Brands Inc
+Stanley Black & Decker Inc
+Bunge Global SA
+Evergy Inc
+Molson Coors Beverage Co Shs -B- Non-Voting
+nVent Electric PLC
+Royalty Pharma PLC Class A
+Huntington Ingalls Industries Inc
+WestRock Co
+Credicorp Ltd
+Reinsurance Group of America Inc
+Juniper Networks Inc
+Equitable Holdings Inc
+Gen Digital Inc
+Alliant Energy Corp
+The Interpublic Group of Companies Inc
+International Paper Co
+JM Smucker Co
+Assurant Inc
+The Carlyle Group Inc
+Unum Group
+Ally Financial Inc
+The AES Corp
+Hormel Foods Corp
+East West Bancorp Inc
+Hewlett Packard Enterprise Co
+Chesapeake Energy Corp Ordinary Shares - New
+Eastman Chemical Co
+NiSource Inc
+Tapestry Inc
+HF Sinclair Corp
+Campbell Soup Co
+Webster Financial Corp
+Essential Utilities Inc
+Albertsons Companies Inc Class A
+C.H. Robinson Worldwide Inc
+Autoliv Inc
+Vail Resorts Inc
+APA Corp
+American Financial Group Inc
+Hasbro Inc
+Evercore Inc Class A
+OGE Energy Corp
+Chord Energy Corp Ordinary Shares - New
+Southern Copper Corp
+H&R Block Inc
+Oshkosh Corp
+Ralph Lauren Corp Class A
+Old Republic International Corp
+Jefferies Financial Group Inc
+Pinnacle West Capital Corp
+Ingredion Inc
+Franklin Resources Inc
+First Horizon Corp
+Slcmt1142
+Crane Co
+Murphy Oil Corp
+First American Financial Corp
+RLI Corp
+Popular Inc
+SouthState Corp
+Cullen/Frost Bankers Inc
+Comerica Inc
+Houlihan Lokey Inc Class A
+UGI Corp
+Assured Guaranty Ltd
+OneMain Holdings Inc
+Prosperity Bancshares Inc
+MGIC Investment Corp
+Synovus Financial Corp
+Civitas Resources Inc Ordinary Shares
+Flowserve Corp
+Sonoco Products Co
+DT Midstream Inc Ordinary Shares
+Invesco Ltd
+Corebridge Financial Inc
+VF Corp
+Zions Bancorp NA
+Whirlpool Corp
+Gap Inc
+Otter Tail Corp
+Helmerich & Payne Inc
+M.D.C. Holdings Inc
+Hancock Whitney Corp
+Columbia Banking System Inc
+Advance Auto Parts Inc
+New Jersey Resources Corp
+Portland General Electric Co
+Glacier Bancorp Inc
+Knife River Holding Co
+Janus Henderson Group PLC
+Southwest Gas Holdings Inc
+Flowers Foods Inc
+Lazard Inc
+Avnet Inc
+FirstCash Holdings Inc
+Huntsman Corp
+National Fuel Gas Co
+MDU Resources Group Inc
+Home BancShares Inc
+Organon & Co Ordinary Shares
+Idacorp Inc
+GATX Corp
+United Bankshares Inc
+Jackson Financial Inc
+Antero Midstream Corp
+Radian Group Inc
+Equitrans Midstream Corp
+Lincoln National Corp
+The Hanover Insurance Group Inc
+Bank OZK
+Cabot Corp
+SLM Corp
+Macy's Inc
+MSC Industrial Direct Co Inc Class A
+F N B Corp
+Old National Bancorp
+Axis Capital Holdings Ltd
+The Western Union Co
+Paramount Global Class B
+Ryder System Inc
+Polaris Inc
+Cadence Bank
+Piper Sandler Cos
+ALLETE Inc
+ONE Gas Inc
+Kontoor Brands Inc
+New York Community Bancorp Inc
+Kemper Corp
+Black Hills Corp
+Valley National Bancorp
+Cogent Communications Holdings Inc
+Perrigo Co PLC
+ManpowerGroup Inc
+Moelis & Co Class A
+Avient Corp
+Steven Madden Ltd
+Travel+Leisure Co
+Carpenter Technology Corp
+Associated Banc-Corp
+Northern Oil & Gas Inc
+PNM Resources Inc
+The Wendy's Co Class A
+LCI Industries Inc
+Avangrid Inc
+MillerKnoll Inc
+CVB Financial Corp
+New Fortress Energy Inc Class A
+MGE Energy Inc
+Independent Bank Corp
+Patterson Companies Inc
+Cal-Maine Foods Inc
+Bank of Hawaii Corp
+Bloomin Brands Inc
+Simmons First National Corp Class A
+Nordstrom Inc
+Community Bank System Inc
+BOK Financial Corp
+Fulton Financial Corp
+Premier Inc Class A
+Atlantic Union Bankshares Corp
+Strategic Education Inc
+Archrock Inc
+Avista Corp
+Artisan Partners Asset Management Inc Class A
+First Hawaiian Inc
+Cathay General Bancorp
+Leggett & Platt Inc
+The Scotts Miracle Gro Co Class A
+ABM Industries Inc
+Sensient Technologies Corp
+Tegna Inc
+Crane NXT Co
+Spectrum Brands Holdings Inc
+Newell Brands Inc
+First BanCorp
+Carter's Inc
+The Chemours Co
+International Game Technology PLC
+NorthWestern Energy Group Inc
+Arch Resources Inc Class A
+CNO Financial Group Inc
+United Community Banks Inc
+Penske Automotive Group Inc
+Walker & Dunlop Inc
+Spire Inc
+McGrath RentCorp
+Kohl's Corp
+Us Dollar
+Greif Inc Class A
+Greenbrier Companies Inc
+NBT Bancorp Inc
+Independent Bank Group Inc
+Golden Ocean Group Ltd
+Virtu Financial Inc Class A
+Reynolds Consumer Products Inc Ordinary Shares
+Virtus Investment Partners Inc
+Vector Group Ltd
+Dana Inc
+Trustmark Corp
+Delek US Holdings Inc Registered Shs Stock Settlement
+La-Z-Boy Inc
+Wesbanco Inc
+Cheesecake Factory Inc
+Tronox Holdings PLC Shs Class A
+Renasant Corp
+SJW Group
+H&E Equipment Services Inc
+Clearway Energy Inc Class C
+Park National Corp
+Upbound Group Inc
+WaFd Inc
+Towne Bank
+Cohen & Steers Inc
+Worthington Enterprises Inc
+Sirius XM Holdings Inc
+BancFirst Corp
+First Merchants Corp
+BankUnited Inc
+Eastern Bankshares Inc Ordinary Shares
+Kennametal Inc
+Energizer Holdings Inc
+First Financial Bancorp
+HNI Corp
+Tennant Co
+Pacific Premier Bancorp Inc
+First Interstate BancSystem Inc
+Xerox Holdings Corp
+Capitol Federal Financial Inc
+Dine Brands Global Inc
+Wolverine World Wide Inc
+B&G Foods Inc
+1st Source Corp
+Brookline Bancorp Inc
+Berkshire Hills Bancorp Inc
+Mativ Holdings Inc
+WK Kellogg Co
+Sandy Spring Bancorp Inc
+Worthington Steel Inc
+CVR Energy Inc
+Kennedy-Wilson Holdings Inc
+Weis Markets Inc
+WisdomTree Inc
+Provident Financial Services Inc
+CNA Financial Corp
+Kaiser Aluminum Corp
+Universal Corp
+Employers Holdings Inc
+Westamerica Bancorp
+S&T Bancorp Inc
+Star Bulk Carriers Corp
+Atlantica Sustainable Infrastructure PLC
+John Wiley & Sons Inc Class A
+Stock Yards Bancorp Inc
+Hope Bancorp Inc
+Apogee Enterprises Inc
+Steelcase Inc Class A
+Mercury General Corp
+Northwest Natural Holding Co
+First Commonwealth Financial Corp
+Navient Corp
+Heartland Financial USA Inc
+Bank of N.T Butterfield & Son Ltd
+Cracker Barrel Old Country Store Inc
+Northwest Bancshares Inc
+Jack In The Box Inc
+Horace Mann Educators Corp
+City Holding Co
+Banner Corp
+Telephone and Data Systems Inc
+Oxford Industries Inc
+SFL Corp Ltd
+ADT Inc
