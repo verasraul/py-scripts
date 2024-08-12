@@ -1,0 +1,305 @@
+Microsoft Corp
+Apple Inc
+NVIDIA Corp
+Broadcom Inc
+Advanced Micro Devices Inc
+Salesforce Inc
+Adobe Inc
+Accenture PLC Class A
+Cisco Systems Inc
+Intuit Inc
+Oracle Corp
+Intel Corp
+Qualcomm Inc
+Applied Materials Inc
+International Business Machines Corp
+ServiceNow Inc
+Texas Instruments Inc
+Lam Research Corp
+Micron Technology Inc
+Analog Devices Inc
+KLA Corp
+Palo Alto Networks Inc
+Synopsys Inc
+Cadence Design Systems Inc
+CrowdStrike Holdings Inc Class A
+Arista Networks Inc
+Amphenol Corp Class A
+NXP Semiconductors NV
+Marvell Technology Inc
+Workday Inc Class A
+Roper Technologies Inc
+Autodesk Inc
+Motorola Solutions Inc
+Snowflake Inc Ordinary Shares - Class A
+Super Micro Computer Inc
+Fortinet Inc
+Palantir Technologies Inc Ordinary Shares - Class A
+Microchip Technology Inc
+TE Connectivity Ltd
+Cognizant Technology Solutions Corp Class A
+Datadog Inc Class A
+Gartner Inc
+Monolithic Power Systems Inc
+CDW Corp
+ON Semiconductor Corp
+Fair Isaac Corp
+MongoDB Inc Class A
+Atlassian Corp A
+HubSpot Inc
+Slbbh1142
+Ansys Inc
+Cloudflare Inc
+Keysight Technologies Inc
+Corning Inc
+HP Inc
+Dell Technologies Inc Ordinary Shares - Class C
+Splunk Inc
+PTC Inc
+Zscaler Inc
+Teledyne Technologies Inc
+Entegris Inc
+Hewlett Packard Enterprise Co
+Western Digital Corp
+NetApp Inc
+Seagate Technology Holdings PLC
+Jabil Inc
+Nutanix Inc Class A
+Enphase Energy Inc
+EPAM Systems Inc
+Zoom Video Communications Inc
+VeriSign Inc
+Okta Inc Class A
+Tyler Technologies Inc
+Teradyne Inc
+GoDaddy Inc Class A
+Akamai Technologies Inc
+Skyworks Solutions Inc
+Pure Storage Inc Class A
+MicroStrategy Inc Class A
+Zebra Technologies Corp Class A
+First Solar Inc
+Manhattan Associates Inc
+Trimble Inc
+Dynatrace Inc Ordinary Shares
+Elastic NV
+Gen Digital Inc
+Flex Ltd
+Juniper Networks Inc
+Twilio Inc Class A
+Lattice Semiconductor Corp
+Bentley Systems Inc Ordinary Shares - Class B
+Coherent Corp
+DocuSign Inc
+F5 Inc
+Qorvo Inc
+Ciena Corp
+Guidewire Software Inc
+UiPath Inc Class A
+Onto Innovation Inc
+Marathon Digital Holdings Inc
+AppLovin Corp Ordinary Shares - Class A
+MKS Instruments Inc
+SentinelOne Inc Class A
+Fabrinet
+Universal Display Corp
+Procore Technologies Inc
+Mktliq 12/31/2049
+GitLab Inc Class A
+Vontier Corp Ordinary Shares
+Cognex Corp
+SPS Commerce Inc
+Unity Software Inc Ordinary Shares
+Novanta Inc
+Rambus Inc
+Qualys Inc
+Arrow Electronics Inc
+Samsara Inc Ordinary Shares - Class A
+Confluent Inc Class A
+Insight Enterprises Inc
+Varonis Systems Inc
+TD Synnex Corp
+BILL Holdings Inc Ordinary Shares
+Dropbox Inc Class A
+Aspen Technology Inc
+Littelfuse Inc
+Tenable Holdings Inc
+Altair Engineering Inc Class A
+C3.ai Inc Ordinary Shares - Class A
+Dolby Laboratories Inc Class A
+CommVault Systems Inc
+AppFolio Inc Class A
+MACOM Technology Solutions Holdings Inc
+Smartsheet Inc Class A
+Itron Inc
+Cirrus Logic Inc
+Kyndryl Holdings Inc Ordinary Shares
+JFrog Ltd Ordinary Shares
+Alarm.com Holdings Inc
+Avnet Inc
+Silicon Laboratories Inc
+Badger Meter Inc
+DXC Technology Co Registered Shs When Issued
+Sanmina Corp
+ACI Worldwide Inc
+Power Integrations Inc
+Workiva Inc Class A
+Teradata Corp
+Advanced Energy Industries Inc
+Synaptics Inc
+Box Inc Class A
+Belden Inc
+Rapid7 Inc
+Amkor Technology Inc
+Axcelis Technologies Inc
+Five9 Inc
+FormFactor Inc
+Riot Platforms Inc
+Q2 Holdings Inc
+Alteryx Inc Class A
+Impinj Inc
+HashiCorp Inc Ordinary Shares Class A
+Xerox Holdings Corp
+Blackbaud Inc
+Braze Inc Class A
+RingCentral Inc Class A
+SolarEdge Technologies Inc
+BlackLine Inc
+Cleanspark Inc
+Crane NXT Co
+Credo Technology Group Holding Ltd
+InterDigital Inc
+Photronics Inc
+DigitalOcean Holdings Inc
+Vishay Intertechnology Inc
+IPG Photonics Corp
+Veeco Instruments Inc
+Vertex Inc Class A
+Plexus Corp
+Allegro Microsystems Inc Ordinary Shares
+Kulicke & Soffa Industries Inc
+Ambarella Inc
+Calix Inc
+PagerDuty Inc
+Viavi Solutions Inc
+Progress Software Corp
+LiveRamp Holdings Inc
+OSI Systems Inc
+Envestnet Inc
+Squarespace Inc Class A
+Perficient Inc
+DoubleVerify Holdings Inc
+Freshworks Inc Ordinary Shares Class A
+Pegasystems Inc
+Lumentum Holdings Inc
+Ultra Clean Holdings Inc
+Wolfspeed Inc
+Diodes Inc
+ePlus Inc
+Sprout Social Inc Class A
+MaxLinear Inc
+Clear Secure Inc Ordinary Shares Class A
+Informatica Inc
+NetScout Systems Inc
+Knowles Corp
+TTM Technologies Inc
+Harmonic Inc
+Pros Holdings Inc
+Fastly Inc Class A
+ACM Research Inc Class A
+Semtech Corp
+SiTime Corp Ordinary Shares
+CTS Corp
+Ichor Holdings Ltd
+Appian Corp A
+Intapp Inc
+PAR Technology Corp
+Verint Systems Inc
+Extreme Networks Inc
+Asana Inc Ordinary Shares - Class A
+Zeta Global Holdings Corp Class A
+NCR Voyix Corp
+Mirion Technologies Inc Ordinary Shares Class A
+Agilysys Inc
+Sprinklr Inc Class A
+Aurora Innovation Inc Class A
+Rogers Corp
+NAPCO Security Technologies Inc
+IonQ Inc Class A
+SoundHound AI Inc Ordinary Shares - Class A
+Ncino Inc Ordinary Shares
+Clearwater Analytics Holdings Inc Class A
+Cohu Inc
+Viasat Inc
+Adeia Inc
+PowerSchool Holdings Inc Class A
+Everbridge Inc
+SMART Global Holdings Inc
+Benchmark Electronics Inc
+ScanSource Inc
+Alkami Technology Inc
+Digi International Inc
+PDF Solutions Inc
+Zuora Inc Class A
+Infinera Corp
+Model N Inc
+A10 Networks Inc
+Arlo Technologies Inc
+Jamf Holding Corp Ordinary Shares
+AvePoint Inc Ordinary Shares - Class A
+Couchbase Inc
+N-able Inc
+Indie Semiconductor Inc Ordinary Shares - Class A
+Amplitude Inc Class A
+PC Connection Inc
+Navitas Semiconductor Corp Class A
+Grid Dynamics Holdings Inc Ordinary Shares Class A
+Methode Electronics Inc
+E2open Parent Holdings Inc Class A
+Yext Inc
+Cerence Inc Ordinary Shares
+The Hackett Group Inc
+Olo Inc Ordinary Shares - Class A
+Corsair Gaming Inc Ordinary Shares
+SolarWinds Corp Ordinary Shares
+nLight Inc
+Kimball Electronics Inc
+Matterport Inc Ordinary Shares - Class A
+Mitek Systems Inc
+CEVA Inc
+Us Dollar
+Alpha & Omega Semiconductor Ltd
+BigCommerce Holdings Inc Ordinary Shares Series 1
+Digimarc Corp
+SmartRent Inc Ordinary Shares - Class A
+Xperi Inc
+Evolv Technologies Holdings Inc Ordinary Shares - Class A
+Lightwave Logic Inc
+SEMrush Holdings Inc Ordinary Shares - Class A
+Aehr Test Systems
+Microvision Inc
+Weave Communications Inc
+Adtran Holdings Inc
+Faro Technologies Inc
+Netgear Inc
+Clearfield Inc
+Applied Digital Corp
+MeridianLink Inc
+Domo Inc
+American Software Inc Class A
+Unisys Corp
+OneSpan Inc
+Enfusion Inc Class A
+Digital Turbine Inc
+Thoughtworks Holding Inc
+TeraWulf Inc
+Consensus Cloud Solutions Inc Ordinary Shares
+8x8 Inc
+Ribbon Communications Inc
+CommScope Holding Co Inc
+MagnaChip Semiconductor Corp
+Telos Corp Ordinary Shares
+CS Disco Inc
+ON24 Inc Ordinary Shares
+Cipher Mining Inc
+Ouster Inc Ordinary Shares - Class A
