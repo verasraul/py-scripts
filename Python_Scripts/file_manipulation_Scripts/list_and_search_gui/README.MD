@@ -4,14 +4,25 @@
 With this program users can search for listed item names and add/remove items from lists.
 
 
+<!-- FEATURES -->
+## Features
+
+1. Single item or multiple comma separated items to be liste in a csv file.
+2. Item names can be entered using a range-pattern. For example `item-name[1-10]` will add `item-name01, item-name02` and so on to the list.
+3. Allows wildcard searching.
+4. Allows wildcard removal of item name.
+
+
+<!-- REQUIREMENTS -->
+## Requirements
+1. Python 3.12
+2. 
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1. Users can enter a list of FQDNs or a single FQDN into an inventory file.
-2. The tool will read each FDQN line-by-line and verify which hosts should or should not be in monitoring.
-3. The tool willl separate FQDNs that should be in moinoriting and add them to a moinitor.txt file.
-4. The FQDNs that should not be in montioring will be addded to denied or do-not-monitor.txt file with instructions that they should be removed from the garage queue IF that is where the request came from.
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
