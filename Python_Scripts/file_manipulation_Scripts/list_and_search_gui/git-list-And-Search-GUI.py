@@ -95,6 +95,97 @@ def submit_form():
         result_text.insert(tk.END, "No new FQDNs were added. All provided FQDNs already exist.")
         result_text.config(state='disabled')
 
+def search_fqdn():
+    """Search for FQDNs matching the wildcard pattern."""
+    search_pattern = search_text.get("1.0", tk.END).strip().lower()
+    csv_file = "denied.csv"
+    
+    if search_pattern:
+        if os.path.isfile(csv_file):
+            matches = []
+            try:
+                with open(csv_file, mode='r', encoding='utf-8') as file:
+                    reader = csv.reader(file)
+                    next(reader, None)  # Skip header
+                    for row in reader:
+                        fqdn = row[0].strip().lower()
+                        comment = row[1].strip()
+                        if fnmatch.fnmatch(fqdn, search_pattern):
+                            matches.append(f"FQDN: {row[0]}, Comments: {comment}")
+                
+                result_text.config(state='normal')
+                result_text.delete("1.0", tk.END)
+                if matches:
+                    result_text.insert(tk.END, f"Found {len(matches)} match(es):\n\n")
+                    result_text.insert(tk.END, "\n".join(matches))
+                else:
+                    result_text.insert(tk.END, f"No matches found for pattern '{search_pattern}'.")
+                result_text.config(state='disabled')
+            except Exception as e:
+                result_text.config(state='normal')
+                result_text.delete("1.0", tk.END)
+                result_text.insert(tk.END, f"Error reading file: {e}")
+                result_text.config(state='disabled')
+        else:
+            result_text.config(state='normal')
+            result_text.delete("1.0", tk.END)
+            result_text.insert(tk.END, "The denied.csv file does not exist.")
+            result_text.config(state='disabled')
+    else:
+        result_text.config(state='normal')
+        result_text.delete("1.0", tk.END)
+        result_text.insert(tk.END, "Please enter a search pattern.")
+        result_text.config(state='disabled')
+
+def remove_fqdn():
+    """Remove FQDNs matching the wildcard pattern from denied.csv."""
+    search_pattern = search_text.get("1.0", tk.END).strip().lower()
+    csv_file = "denied.csv"
+    
+    if search_pattern:
+        if os.path.isfile(csv_file):
+            updated_rows = []
+            removed_entries = []
+            try:
+                with open(csv_file, mode='r', encoding='utf-8') as file:
+                    reader = csv.reader(file)
+                    headers = next(reader, None)
+                    for row in reader:
+                        fqdn = row[0].strip().lower()
+                        if fnmatch.fnmatch(fqdn, search_pattern):
+                            removed_entries.append(row)
+                        else:
+                            updated_rows.append(row)
+                
+                with open(csv_file, mode='w', newline='', encoding='utf-8') as file:
+                    writer = csv.writer(file)
+                    if headers:
+                        writer.writerow(headers)
+                    writer.writerows(updated_rows)
+                
+                result_text.config(state='normal')
+                result_text.delete("1.0", tk.END)
+                if removed_entries:
+                    result_text.insert(tk.END, f"Removed {len(removed_entries)} FQDN(s) matching '{search_pattern}'.")
+                else:
+                    result_text.insert(tk.END, f"No FQDNs matching '{search_pattern}' were found to remove.")
+                result_text.config(state='disabled')
+            except Exception as e:
+                result_text.config(state='normal')
+                result_text.delete("1.0", tk.END)
+                result_text.insert(tk.END, f"Error processing file: {e}")
+                result_text.config(state='disabled')
+        else:
+            result_text.config(state='normal')
+            result_text.delete("1.0", tk.END)
+            result_text.insert(tk.END, "The denied.csv file does not exist.")
+            result_text.config(state='disabled')
+    else:
+        result_text.config(state='normal')
+        result_text.delete("1.0", tk.END)
+        result_text.insert(tk.END, "Please enter a pattern to remove.")
+        result_text.config(state='disabled')
+
 def clear_comments_and_fqdn():
     """Clear both FQDN and Comments text fields."""
     fqdn_text.delete("1.0", tk.END)
