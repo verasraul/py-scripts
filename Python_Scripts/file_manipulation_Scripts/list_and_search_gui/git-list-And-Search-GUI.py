@@ -15,7 +15,7 @@ def run_shell_command(command):
         return f"An error occurred: {e.stderr}"
 
 def git_pull():
-    """Pull the latest changes for the denied.csv from the Git repository."""
+    """Pull the latest changes for the list.csv from the Git repository."""
     output = run_shell_command("git pull")
     print(output)  # Optionally, display the output in the GUI or log it.
 
@@ -30,7 +30,7 @@ def expand_itemName_range(itemName):
         return [itemName]
 
 def submit_form():
-    """Submit itemNames and comments to denied.csv file."""
+    """Submit itemNames and comments to list.csv file."""
     itemName_input = itemName_text.get("1.0", tk.END).strip().split(',')
     comments = comments_text.get("1.0", tk.END).strip()
     
@@ -41,7 +41,7 @@ def submit_form():
 
     existing_itemNames = set()
     new_itemNames = []
-    csv_file = "denied.csv"
+    csv_file = "list.csv"
     
     # Check if the itemNames already exist in the file
     if os.path.isfile(csv_file):
@@ -74,7 +74,7 @@ def submit_form():
             
             result_text.config(state='normal')
             result_text.delete("1.0", tk.END)
-            result_text.insert(tk.END, f"Successfully added {len(new_itemNames)} itemName(s) to denied.csv.")
+            result_text.insert(tk.END, f"Successfully added {len(new_itemNames)} itemName(s) to list.csv.")
             
             # List the existing itemNames
             if existing_itemNames:
@@ -98,7 +98,7 @@ def submit_form():
 def search_itemName():
     """Search for itemNames matching the wildcard pattern."""
     search_pattern = search_text.get("1.0", tk.END).strip().lower()
-    csv_file = "denied.csv"
+    csv_file = "list.csv"
     
     if search_pattern:
         if os.path.isfile(csv_file):
@@ -129,7 +129,7 @@ def search_itemName():
         else:
             result_text.config(state='normal')
             result_text.delete("1.0", tk.END)
-            result_text.insert(tk.END, "The denied.csv file does not exist.")
+            result_text.insert(tk.END, "The list.csv file does not exist.")
             result_text.config(state='disabled')
     else:
         result_text.config(state='normal')
@@ -138,9 +138,9 @@ def search_itemName():
         result_text.config(state='disabled')
 
 def remove_itemName():
-    """Remove itemNames matching the wildcard pattern from denied.csv."""
+    """Remove itemNames matching the wildcard pattern from list.csv."""
     search_pattern = search_text.get("1.0", tk.END).strip().lower()
-    csv_file = "denied.csv"
+    csv_file = "list.csv"
     
     if search_pattern:
         if os.path.isfile(csv_file):
@@ -178,7 +178,7 @@ def remove_itemName():
         else:
             result_text.config(state='normal')
             result_text.delete("1.0", tk.END)
-            result_text.insert(tk.END, "The denied.csv file does not exist.")
+            result_text.insert(tk.END, "The list.csv file does not exist.")
             result_text.config(state='disabled')
     else:
         result_text.config(state='normal')
@@ -209,8 +209,8 @@ def on_close():
 def commit_and_push():
     """Commit and push the changes to the Git repository."""
     commands = [
-        "git add denied.csv",
-        "git commit -m 'Updated denied.csv with new itemName entries'",
+        "git add list.csv",
+        "git commit -m 'Updated list.csv with new itemName entries'",
         "git push"
     ]
     for command in commands:
