@@ -148,7 +148,7 @@ fqdn_text.pack(pady=5)
 comments_label = ttk.Label(fqdn_frame, text="Comments:")
 comments_label.pack(anchor=tk.W, pady=(5, 0))
 
-comments_text = tk.Text(fqdn_frame, width 80, height=3, wrap=tk.WORD)
+comments_text = tk.Text(fqdn_frame, width=80, height=3, wrap=tk.WORD)
 comments_text.pack(pady=5)
 
 clear_add_button = ttk.Button(fqdn_frame, text="Clear Fields", command=clear_comments_and_fqdn)
