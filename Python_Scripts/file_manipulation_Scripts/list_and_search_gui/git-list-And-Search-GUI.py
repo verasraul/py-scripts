@@ -112,6 +112,21 @@ def commit_and_push():
         if "error" in output.lower():
             print(output)  # Display any errors encountered during the git operations
 
+def clear_comments_and_fqdn():
+    """Clear both FQDN and Comments text fields."""
+    fqdn_text.delete("1.0", tk.END)
+    comments_text.delete("1.0", tk.END)
+
+def clear_search():
+    """Clear the Search text field."""
+    search_text.delete("1.0", tk.END)
+
+def clear_result():
+    """Clear the Result text field."""
+    result_text.config(state='normal')
+    result_text.delete("1.0", tk.END)
+    result_text.config(state='disabled')
+
 # -------------------- GUI Setup --------------------
 
 root = tk.Tk()
