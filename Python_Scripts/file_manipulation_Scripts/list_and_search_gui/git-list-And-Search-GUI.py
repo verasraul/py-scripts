@@ -14,14 +14,19 @@ def run_shell_command(command):
     except subprocess.CalledProcessError as e:
         return f"An error occurred: {e}"
 
-def git_fetch():
-    """Fetch changes from the upstream repo and merge them into the local main branch."""
-    fetch_command = "git fetch upstream"
-    merge_command = "git merge upstream/main"
-    fetch_result = run_shell_command(fetch_command)
-    merge_result = run_shell_command(merge_command)
-    print(fetch_result)  # Optionally display the fetch result in the GUI or log it.
-    print(merge_result)
+def git_pull():
+    """Pull the latest changes for the list.csv from the Git repository."""
+    output = run_shell_command("git pull")
+    print(output)  # Optionally, display the output in the GUI or log it.
+
+# def git_fetch():
+#     """Fetch changes from the upstream repo and merge them into the local main branch."""
+#     fetch_command = "git fetch upstream"
+#     merge_command = "git merge upstream/main"
+#     fetch_result = run_shell_command(fetch_command)
+#     merge_result = run_shell_command(merge_command)
+#     print(fetch_result)  # Optionally display the fetch result in the GUI or log it.
+#     print(merge_result)
 
 def expand_itemName_range(itemName):
     """Expand itemName patterns like varnish[09-11].voice.prod.co into a list of itemNames."""
@@ -212,15 +217,24 @@ def on_close():
 
 def commit_and_push():
     """Commit and push the changes to the Git repository."""
-    commands = [
-        "git add list.csv",
-        "git commit -m 'Updated list.csv with new itemName entries'",
-        "git push"
-    ]
-    for command in commands:
-        output = run_shell_command(command)
-        if "error" in output.lower():
-            print(output)  # Display any errors encountered during the git operations
+    add_command = "git add list.csv"
+    commit_command = "git commit -m 'Updated list'"
+    push_command = "git push"
+    add_result = run_shell_command(add_command)
+    commit_result = run_shell_command(commit_command)
+    push_result = run_shell_command(push_command)
+    print(add_result)
+    print(commit_result)
+    print(push_result)
+    # commands = [
+    #     "git add list.csv",
+    #     "git commit -m 'Updated list.csv with new itemName entries'",
+    #     "git push"
+    # ]
+    # for command in commands:
+    #     output = run_shell_command(command)
+    #     if "error" in output.lower():
+    #         print(output)  # Display any errors encountered during the git operations
 
 # -------------------- GUI Setup --------------------
 
@@ -230,7 +244,7 @@ root.geometry("700x700")
 root.resizable(False, False)
 
 # Initialize and pull changes at startup
-git_fetch()
+git_pull()
 
 # Bind the close event to the on_close function
 root.protocol("WM_DELETE_WINDOW", on_close)
