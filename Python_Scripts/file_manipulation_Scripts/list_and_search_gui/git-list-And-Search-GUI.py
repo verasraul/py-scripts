@@ -12,12 +12,16 @@ def run_shell_command(command):
         result = subprocess.run(command, shell=True, capture_output=True, text=True, check=True)
         return result.stdout.strip()
     except subprocess.CalledProcessError as e:
-        return f"An error occurred: {e.stderr}"
+        return f"An error occurred: {e}"
 
-def git_pull():
-    """Pull the latest changes for the list.csv from the Git repository."""
-    output = run_shell_command("git pull")
-    print(output)  # Optionally, display the output in the GUI or log it.
+def git_fetch():
+    """Fetch changes from the upstream repo and merge them into the local main branch."""
+    fetch_command = "git fetch upstream"
+    merge_command = "git merge upstream/main"
+    fetch_result = run_shell_command(fetch_command)
+    merge_result = run_shell_command(merge_command)
+    print(fetch_result)  # Optionally display the fetch result in the GUI or log it.
+    print(merge_result)
 
 def expand_itemName_range(itemName):
     """Expand itemName patterns like varnish[09-11].voice.prod.co into a list of itemNames."""
@@ -221,12 +225,12 @@ def commit_and_push():
 # -------------------- GUI Setup --------------------
 
 root = tk.Tk()
-root.title("Denied itemName Manager")
+root.title("Item Listing Manager")
 root.geometry("700x700")
 root.resizable(False, False)
 
 # Initialize and pull changes at startup
-git_pull()
+git_fetch()
 
 # Bind the close event to the on_close function
 root.protocol("WM_DELETE_WINDOW", on_close)
